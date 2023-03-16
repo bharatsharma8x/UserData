@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+}
+
+#container{
+    width: auto;
+    height: 650px;
+    background-color:RGB(81 122 163);
+    padding-top: 5rem;
+}
+
+#form1{
+    height:auto;
+    width: 27rem;
+    background-color: whitesmoke;
+    margin: auto;
+    border-radius: 2%;
+  
+}
+
+#email , #password , #fname , #lname , #cPassword , #submit{
+    width: 90%;
+    padding: 12px 30px ;
+    margin: 15px 25px 0 ;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#check{
+  margin-left: 25px;
+  margin-top: 1.2rem;
+  margin-right: .5rem;
+}
+
+.tp{
+    color:RGB(81 122 163);
+}
+
+#submit{
+    background-color: RGB(81 122 163);
+    color: white;
+}
+
+
+
+.fontuser {
+    position: relative;
+}
+
+.fontuser i{
+    position: absolute;
+    left: 2rem;
+    top: 1.7rem;
+    color: gray;
+}
+
+.fontpassword {
+    position: relative;
+}
+
+.fontpassword i{
+    position: absolute;
+    left: 2rem;
+    top: 1.7rem;
+    color: gray;
+}
+
+
+
+/* Dashborad css */
+
+

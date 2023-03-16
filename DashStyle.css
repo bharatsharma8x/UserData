@@ -1,0 +1,63 @@
+
+
+#userTable {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #userTable td, #userTable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #userTable tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #userTable tr:hover {background-color: #ddd;}
+  
+  #userTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color:RGB(81 122 163);
+    color: white;
+  }
+
+
+#dashButton{
+  display: flex;
+  justify-content:end;
+}
+
+.fa {
+}
+
+.Dashcss  {
+display: inline-block;
+outline: none;
+cursor: pointer;
+font-weight: 500;
+border-radius: 3px;
+padding: 0 15px;
+border-radius: 4px;
+color: RGB(81 122 163);
+background: transparent;
+line-height: 1.15;
+font-size: 14px;
+height: 36px;
+word-spacing: 0px;
+letter-spacing: .0892857143em;
+text-decoration: none;
+min-width: 64px;
+border: 1px solid RGB(81 122 163);
+text-align: center;
+transition: background 280ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.Dashcss:hover {
+   background: #f4f4f4;
+}
+
+li {
+  display: inline-block;
+  margin: 0 10px;
+}

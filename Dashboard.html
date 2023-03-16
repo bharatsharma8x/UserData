@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="DashStyle.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body onload="fetchData();">
+    <div style="background-color: RGB(81 122 163); padding: 20px; color: aliceblue">
+      <h1 id="heading"><center>Welcome to User Dashboard</center></h1>
+    </div>
+    <hr />
+    <br />
+    <div id="dashButton">
+      <div>
+        <!-- <button id="fetchUser">GET DATA</button> -->
+      </div>
+      <div>
+        <input class="Dashcss" style="color: black" type="text" id="searchUser" placeholder="Search by UserName"/>
+        <button class="Dashcss" id="fetchUserBySearch">
+        <i class="fa fa-search" aria-hidden="true"></i>
+        </button>
+      </div>
+    </div>
+    <br />
+
+    <div id="containerr"></div>
+    <div id="pageNum"></div>
+  </body>
+  <script src="script.js"></script>
+</html>
